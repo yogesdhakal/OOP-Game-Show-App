@@ -55,7 +55,11 @@ class Phrase {
       lettersOnBoard.forEach(letter => {
         if (letter.textContent === userLetter) {
           letter.classList.replace('hide', 'show');
-          letter.classList.add('magnify');
+
+          //shows animation at after certain time 
+          setInterval(function(){ letter.classList.add('rainbow'); }, 200);
+          
+          
         }
       })
       

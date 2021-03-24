@@ -6,11 +6,11 @@ class Game {
     constructor() {
       this.missed = 0;
       this.phrases = [
-        new Phrase('incredible'), 
-        new Phrase('up up and away'), 
-        new Phrase('wake me up'), 
-        new Phrase('shine bright'), 
-        new Phrase('speedy')
+        new Phrase('How are you'), 
+        new Phrase('Gone with the wind'), 
+        new Phrase('Thank you'), 
+        new Phrase('Diamond'), 
+        new Phrase('Please')
       ];
       this.activePhrase = null;
     }
